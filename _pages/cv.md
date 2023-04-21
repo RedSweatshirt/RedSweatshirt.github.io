@@ -1,13 +1,13 @@
 ---
 layout: page
-permalink: /resume/
+permalink: /cv/
 title: cv
 nav: true
-nav_order: 4
+nav_order: 2
 cv_pdf: JohnEastmanResume.pdf
 ---
 
-# <center><a href="/assets/pdf/JohnEastmanResume.pdf">Resume</a></center>
+### <a href="/assets/pdf/JohnEastmanResume.pdf">Resume PDF</a>
 
 ## <center>Education</center>
 ### [Massachusetts Institute of Technology](https://mit.edu/) [Sept. 2019 - May 2023]
@@ -27,7 +27,8 @@ cv_pdf: JohnEastmanResume.pdf
 
 ### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2022 - Dec. 2022]
 #### Undergraduate Teaching Assistant
-- Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400).- Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
+- Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400).
+- Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
 - Composed and graded exam questions, as well as evaluated homework assignments.
 
 ### [Intel Corporation](https://www.intel.com) [May 2022 – Aug. 2022]

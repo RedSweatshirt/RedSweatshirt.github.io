@@ -2,96 +2,90 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: John Eastman
     - name: Languages
-      value: English, German
+      value: English, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor of Science in Computer Science and Engineering
+      institution: Massachusetts Institute of Technology
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Minor in Japanese
+        - Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergraduate Researcher
+      institution: MIT Computer Science and Artificial Intelligence Laboratory
+      year: Feb. 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Collaborating with a skilled team to develop a differentiable rigid body physics simulation for underwater gliders.
+        - Adapting and enhancing Google's open-source Brax physics simulator to accommodate hydrodynamic forces for more accurate simulations.
+        - Implementing precise prismatic joint connections and dynamic mass changes.
+        - Assisting the design team in developing physical prototypes by providing data-driven physics simulations.
+    - title: Undergraduate Teaching Assistant
+      institution: MIT Electrical Engineering and Computer Science Dept.
+      year: Sept. 2022 - Dec. 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Served as a TA for the Advanced Undergraduate Subject Computer Graphics (6.4400).
+        - Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
+        - Composed and graded exam questions, as well as evaluated homework assignments.
+    - title: 3D Acceleration Intern
+      institution: Intel Corporation
+      year: May 2022 - Aug. 2022
       description:
+        - Developed discrete GPU driver modifications to resolve bugs and improve Direct3D performance for Windows.
+        - Performed in-depth data collection and analysis of GPU performance utilizing advanced performance tools.
+        - Provided technical support to developers in using GPU systems for performance analysis.
+    - title: Undergraduate Researcher - Backend Server Development 
+      institution: MIT Mechanical Engineering Dept.
+      year: June 2021 - Sept. 2021
+      description:
+        - Collaborated with MindHandHeart to develop a website hosting therapeutic audio files for mental health support.
+        - Established a server backend using Python in Django, hosted by Nginx on an Ubuntu server.
+        - Designed a custom log-on system with use, content creator, moderator, and server administrator roles.
+    - title: Undergraduate Researcher - Embedded Systems Designer 
+      institution: MIT Choi Labs
+      year: June 2021 - Sept. 2021
+        - Adapted open-source embedded mouse feeder systems for remote monitoring capabilities.
+        - Engineered new hardware to interface offline mouse feeder using Raspberry Pi for internet connectivity.
+        - Developed software for Raspberry Pi to monitor the mouse feeders and transmit data and alerts autonomously.
+    - title: Data Science Intern
+      institution: Andeno
+      year: June 2020 - Aug. 2020
+        - Developed Python command-line scripts to process raw bank statement data and perform data analysis.
+        - Categorized transactions into groups using Natural Language Processing techniques.
+        - Verified users' income, expenses, spending, and credit history and generated customer analysis and statistics.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C/C++
+        - Python
+        - C#
+        - Java
+        - Julia
+        - MATLAB
+    - title: Frameworks
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Direct3D (DirectX)
+        - OpenGL
+        - PyTorch
+        - UNIX
+        - Arduino
+        - ESP32
+        - Nginx
+        - Django
+    - title: Proficiencies
+      items:
+      - Computer Graphics
+      - Computer Vision
+      - Machine Learning
+      - Operating Systems
+      - Embedded Systems

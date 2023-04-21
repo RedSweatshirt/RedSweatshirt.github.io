@@ -1,6 +1,6 @@
 ---
 layout: pdf
-permalink: /resume_pdf/
+permalink: /resume/
 title: resume
 cv_pdf: JohnEastmanResume.pdf
 ---
