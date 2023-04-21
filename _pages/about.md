@@ -17,13 +17,13 @@ social: true  # includes social icons at the bottom of the page
 
 #### Welcome to Jack's portfolio page
 
-Hi there! I'm John, but I go by the nickname Jack. I'm a fourth-year B.S. Computer Science and Engineering student at the prestigious Massachusetts Institute of Technology. Passionate about computational design, computer graphics, and vision, I have had the opportunity to hone my skills and apply my knowledge through various academic and industry experiences. In this space, I would like to share more about my journey and the projects I've worked on.
+Hi there! I'm John, but I go by the nickname Jack. I'm a fourth-year B.S. Computer Science and Engineering student at Massachusetts Institute of Technology. Passionate about computational design, computer graphics, and vision, I have had the opportunity to hone my skills and apply my knowledge through various academic and industry experiences. In this space, I would like to share more about my journey and the projects I've worked on.
 
 #### My Interests
 
 Since I was young, I've always had a fascination with video games and how they are created. This interest led me to explore the world of computer graphics, where I discovered the intricate processes and technologies that bring virtual worlds to life. Over time, I became captivated by computer vision as well, which opened up a whole new realm of possibilities for creating intelligent systems that can perceive and interpret the world around them.
 
-In my free time, I love coding small electronics projects, which has allowed me to further develop my skills in embedded systems and hardware design. It's always exciting to see the tangible results of my work and the potential for these projects to make a real impact.
+In my free time, I enjoy designing and coding small electronics projects, which has allowed me to further develop my skills in embedded systems and hardware design. These creative outlets let me explore new possibilities while expanding my technical knowledge.
 
 #### My Skills
 
