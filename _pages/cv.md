@@ -1,17 +1,17 @@
 ---
 layout: page
 permalink: /resume/
-title: Curriculum Vitae
+title: cv
 nav: true
 nav_order: 4
 cv_pdf: JohnEastmanResume.pdf
 ---
 
-# <center>[Resume PDF](/resume_pdf/)</center>
+# <center><a href="/assets/pdf/JohnEastmanResume.pdf">Resume</a></center>
 
 ## <center>Education</center>
 ### [Massachusetts Institute of Technology](https://mit.edu/) [Sept. 2019 - May 2023]
-Bachelor of Science in Computer Science and Engineering, Minor in Japanese
+#### Bachelor of Science in Computer Science and Engineering, Minor in Japanese
 - GPA: 4.7/5.0
 - Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning. 
 
@@ -58,6 +58,6 @@ Bachelor of Science in Computer Science and Engineering, Minor in Japanese
 
 ## <center>Skills</center>
 
-### Programming Languages: C/C++, Python, C#, Java, Julia, MATLAB
-### Frameworks: Direct3D (DirectX), OpenGL, PyTorch, UNIX, Arduino, ESP32
-### Proficiencies: Computer Graphics, Computer Vision, Machine Learning, Operating Systems, Embedded Systems 
+#### Programming Languages: C/C++, Python, C#, Java, Julia, MATLAB
+#### Frameworks: Direct3D (DirectX), OpenGL, PyTorch, UNIX, Arduino, ESP32
+#### Proficiencies: Computer Graphics, Computer Vision, Machine Learning, Operating Systems, Embedded Systems 
