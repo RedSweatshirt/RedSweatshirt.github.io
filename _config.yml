@@ -104,7 +104,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is through email at eastmanj[at]mit[dot]edu
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -267,28 +267,28 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  # last_name: [Einstein]
-  # first_name: [Albert, A.]
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
-  # style: apa
-  # locale: en
+  style: apa
+  locale: en
 
-  # source: /_bibliography/
-  # bibliography: papers.bib
-  # bibliography_template: bib
-  # # Note: if you have latex math in your bibtex, the latex filter
-  # # preprocessing may conflict with MathJAX if the latter is enabled.
-  # # See https://github.com/alshedivat/al-folio/issues/357.
-  # bibtex_filters: [latex, smallcaps, superscript]
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
 
-  # replace_strings: true
-  # join_strings: true
+  replace_strings: true
+  join_strings: true
 
-  # details_dir: bibliography
-  # details_layout: bibtex.html
-  # details_link: Details
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
 
-  # query: "@*"
+  query: "@*"
 
 badges: # Display different badges for your publications
   altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
