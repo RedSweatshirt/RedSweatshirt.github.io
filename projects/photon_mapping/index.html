@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8D%81&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://redsweatshirt.github.io/projects/photon_mapping_6837/">
+    <link rel="canonical" href="https://redsweatshirt.github.io/projects/photon_mapping/">
     
     <!-- Dark Mode -->
     
@@ -109,9 +109,10 @@
           </header>
 
           <article>
-            <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+            <div class="container">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <figure>
 
   <picture>
     
@@ -127,9 +128,9 @@
 
 </figure>
 
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            <figure>
 
   <picture>
     
@@ -145,23 +146,24 @@
 
 </figure>
 
+        </div>
     </div>
 </div>
 <div class="caption">
     On the left, a ray traced Cornell box replica. Right, a ray traced Cornell box with Photon Mapping.
 </div>
 
-<p>During our computer graphics class at MIT (6.837) in Fall 2022, my partner Isaac Redlon and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.</p>
+<p>During our computer graphics class at MIT (6.837) in Fall 2022, a class partner and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.</p>
 
 <h4 id="refraction">Refraction</h4>
 
 <p>Our refraction implementation was based on a <a href="https://courses.cs.washington.edu/courses/cse457/11au/lectures/markup/ray-tracing-markup.pdf" rel="external nofollow noopener" target="_blank">University of Washington lecture</a> by Daniel Leventhal. We extended our standard ray tracer, which already supported recursive ray bounces for reflection. For refraction, we calculated the angle using Snell’s law, factoring in the index of refraction of the intersected object, and assumed solid glass surfaces for simplicity. We also accounted for total internal reflection using Snell’s law, which resulted in a reflected ray instead of a refracted one for certain ray angles.</p>
 
 <h4 id="photon-mapping">Photon Mapping</h4>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<div class="container">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <figure>
 
   <picture>
     
@@ -177,9 +179,9 @@
 
 </figure>
 
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            <figure>
 
   <picture>
     
@@ -195,6 +197,7 @@
 
 </figure>
 
+        </div>
     </div>
 </div>
 <div class="caption">
@@ -203,15 +206,16 @@
 
 <p>Our photon mapping work was based on the paper <a href="https://graphics.stanford.edu/courses/cs348b-00/course8.pdf" rel="external nofollow noopener" target="_blank">“A Practical Guide to Global Illumination using Photon Maps”</a> by Niels Jorgen Christensen and Henrik Wann Jensen, presented at Siggraph 2000. We created the photon map by casting rays randomly from a point light, with each ray representing a photon carrying a portion of the light’s energy. Photons could undergo diffuse reflection, specular reflection, absorption, or refraction upon intersection with an object. To implement caustics, we created a secondary photon map that cast more photons but only stored interactions with refractive materials.</p>
 
-<p>We determined each photon’s action on intersection using a technique called “Russian Roulette,” which allowed us to manage the space and time complexity more efficiently. The photon’s power was scaled accordingly based on the action it underwent and its interaction with the material properties.</p>
+<p>We determined each photon’s action on intersection using a technique called “Russian Roulette,” which allowed us to manage the space and time complexity more efficiently. A random number was generated in order to decide the fate of each individual photon for each interaction with an object, based on the contacted material’s properties, specifically diffuse and specular color, as well as assigned values for refraction and reflection, which were used to calculate probabilities of diffuse reflection, specular reflection, absorption, and refraction.</p>
 
 <p>For gathering photons, we employed a radiance estimate function that collected all photons within a radius r of the point where the eye rays intersected an object. The power of each photon was scaled based on a cone filter and its contribution to the light at that point, allowing us to approximate the global illumination contribution at that point.</p>
 
 <h4 id="k-d-tree-data-structure">k-d Tree Data Structure</h4>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<div class="container">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <figure>
 
   <picture>
     
@@ -227,6 +231,7 @@
 
 </figure>
 
+        </div>
     </div>
 </div>
 <div class="caption">
