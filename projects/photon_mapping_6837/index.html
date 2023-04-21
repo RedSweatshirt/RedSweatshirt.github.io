@@ -109,7 +109,7 @@
           </header>
 
           <article>
-            <div class="row">
+            <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
@@ -151,7 +151,7 @@
     On the left, a ray traced Cornell box replica. Right, a ray traced Cornell box with Photon Mapping.
 </div>
 
-<p>During our computer graphics class, 6.837 at MIT, my partner Isaac Redlon and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.</p>
+<p>During our computer graphics class at MIT (6.837) in Fall 2022, my partner Isaac Redlon and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.</p>
 
 <h4 id="refraction">Refraction</h4>
 
@@ -159,7 +159,7 @@
 
 <h4 id="photon-mapping">Photon Mapping</h4>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
@@ -171,7 +171,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/photon_mapping_6837/rt_pm_cornellbox.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ray Traced Cornell Box" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/photon_mapping_6837/rt_pm_cornellbox.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ray Traced Cornell Box with Photon Mapping" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -183,13 +183,13 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/photon_mapping_6837/rt_pm_vis_cornellbox-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/photon_mapping_6837/rt_pm_vis_cornellbox-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/photon_mapping_6837/rt_pm_vis_cornellbox-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/photon_mapping_6837/pm_vis_cornellbox-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/photon_mapping_6837/pm_vis_cornellbox-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/photon_mapping_6837/pm_vis_cornellbox-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/photon_mapping_6837/rt_pm_vis_cornellbox.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ray Traced Cornell Box with Photon Mapping" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/photon_mapping_6837/pm_vis_cornellbox.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Cornell Box with Photon Visualization" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -209,7 +209,7 @@
 
 <h4 id="k-d-tree-data-structure">k-d Tree Data Structure</h4>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
@@ -221,7 +221,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/photon_mapping_6837/rt_perf.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ray Traced Cornell Box" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/photon_mapping_6837/rt_perf.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ray Tracing Performance by Data Structure" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
