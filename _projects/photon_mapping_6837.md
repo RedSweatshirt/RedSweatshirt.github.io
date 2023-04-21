@@ -7,7 +7,7 @@ importance: 1
 category: school
 ---
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/photon_mapping_6837/rt_cornellbox.png" title="Ray Traced Cornell Box" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -19,7 +19,7 @@ category: school
     On the left, a ray traced Cornell box replica. Right, a ray traced Cornell box with Photon Mapping.
 </div>
 
-During our computer graphics class, 6.837 at MIT, my partner Isaac Redlon and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.
+During our computer graphics class at MIT (6.837) in Fall 2022, my partner Isaac Redlon and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.
 
 #### Refraction
 
@@ -27,12 +27,12 @@ Our refraction implementation was based on a [University of Washington lecture](
 
 #### Photon Mapping
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/photon_mapping_6837/rt_pm_cornellbox.png" title="Ray Traced Cornell Box" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/photon_mapping_6837/rt_pm_cornellbox.png" title="Ray Traced Cornell Box with Photon Mapping" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/photon_mapping_6837/rt_pm_vis_cornellbox.png" title="Ray Traced Cornell Box with Photon Mapping" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/photon_mapping_6837/pm_vis_cornellbox.png" title="Cornell Box with Photon Visualization" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -47,9 +47,9 @@ For gathering photons, we employed a radiance estimate function that collected a
 
 #### k-d Tree Data Structure
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/photon_mapping_6837/rt_perf.png" title="Ray Traced Cornell Box" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/photon_mapping_6837/rt_perf.png" title="Ray Tracing Performance by Data Structure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
