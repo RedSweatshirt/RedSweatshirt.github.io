@@ -19,7 +19,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Undergraduate Researcher
+    - title: Undergraduate Researcher - Computational Design and Fabrication Group
       institution: MIT Computer Science and Artificial Intelligence Laboratory
       year: Feb. 2022 - Present
       description:
@@ -51,12 +51,14 @@
     - title: Undergraduate Researcher - Embedded Systems Designer 
       institution: MIT Choi Labs
       year: June 2021 - Sept. 2021
+      description:
         - Adapted open-source embedded mouse feeder systems for remote monitoring capabilities.
         - Engineered new hardware to interface offline mouse feeder using Raspberry Pi for internet connectivity.
         - Developed software for Raspberry Pi to monitor the mouse feeders and transmit data and alerts autonomously.
     - title: Data Science Intern
       institution: Andeno
       year: June 2020 - Aug. 2020
+      description:
         - Developed Python command-line scripts to process raw bank statement data and perform data analysis.
         - Categorized transactions into groups using Natural Language Processing techniques.
         - Verified users' income, expenses, spending, and credit history and generated customer analysis and statistics.

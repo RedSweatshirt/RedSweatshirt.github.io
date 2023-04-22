@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A template page to upload projects to later
+description: A page for showcasing projects I've done for work, school, and for fun.
 nav: false
 nav_order: 3
-display_categories: [work, school, fun]
+# display_categories: [work, school, fun]
 horizontal: false
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Global Illumination via Photon Mapping
 description: MIT Computer Graphics course (6.837) Final Project
 img: assets/img/photon_mapping_6837/rt_pm_cornellbox.png
-importance: 1
+importance: 3
 category: school
 ---
 
@@ -50,13 +50,13 @@ For gathering photons, we employed a radiance estimate function that collected a
 
 #### k-d Tree Data Structure
 
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/photon_mapping_6837/rt_perf.png" title="Ray Tracing Performance by Data Structure" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     A visualization of ray tracing performance, vector vs. k-d tree
 </div>
