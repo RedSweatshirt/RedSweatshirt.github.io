@@ -41,6 +41,8 @@ The idea behind FRVSR is to use a recurrent network to implement video super-res
 </div>
 <div class="caption">
     The FRVSR Model. Image source: https://arxiv.org/pdf/1801.04590.pdf
+
+    <a href=https://arxiv.org/pdf/1801.04590.pdf>Image Source</a>
 </div>
 <div class="container">
     <div class="row justify-content-sm-center">
@@ -133,35 +135,35 @@ In conclusion, this project has demonstrated the potential of enhancing video su
 #### Videos
 Sample input and output videos are available below.
 <center>
-    <iframe src="https://drive.google.com/file/d/1ERXi6uvwsjW-di5ctiRw9Iwj3d_6e1kW/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1ERXi6uvwsjW-di5ctiRw9Iwj3d_6e1kW/preview" width="704" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Original, ground truth video
     </div>
 </center>
 
 <center>
-    <iframe src="https://drive.google.com/file/d/1LBb0chE7gI2G5M3_6PNXoxNe1O1yvmmm/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1LBb0chE7gI2G5M3_6PNXoxNe1O1yvmmm/preview" width="704" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Low resolution downsampled input video
     </div>
 </center>
 
 <center>
-    <iframe src="https://drive.google.com/file/d/1sDeFrSPj1802UImI0X7FiDc1UWnPUTAi/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1sDeFrSPj1802UImI0X7FiDc1UWnPUTAi/preview" width="704" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Video upscaled using traditional bicubic interpolation
     </div>
 </center>
 
 <center>
-    <iframe src="https://drive.google.com/file/d/1kK_P5xkILrYNeEGdYKOkeAlZ1KkYvnPJ/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1kK_P5xkILrYNeEGdYKOkeAlZ1KkYvnPJ/preview" width="704" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Video upscaled using original FRVSR
     </div>
 </center>
 
 <center>
-    <iframe src="https://drive.google.com/file/d/1U12v0iP3Y_k5157q8uFU1gKviPLI9tV1/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1U12v0iP3Y_k5157q8uFU1gKviPLI9tV1/preview" width="704" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Video upscaled using my revised model
     </div>
