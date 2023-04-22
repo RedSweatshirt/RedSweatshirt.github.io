@@ -10,10 +10,10 @@ category: school
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm-6 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm-5 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -40,7 +40,17 @@ The idea behind FRVSR is to use a recurrent network to implement video super-res
     </div>
 </div>
 <div class="caption">
-    Left, The FRVSR Model <a href=https://arxiv.org/pdf/1801.04590.pdf>[Image Source]</a>. Right, the RAFT Flow Network Model <a href=https://arxiv.org/pdf/2003.12039.pdf>[Image Source]</a>.
+    The FRVSR Model. Image source: https://arxiv.org/pdf/1801.04590.pdf
+</div>
+<div class="container">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/vsr_6869/RAFTModel.png" title="RAFT Model Diagram" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    RAFT Flow Network Model. Image source: https://arxiv.org/pdf/2003.12039.pdf
 </div>
 
 To achieve this goal, I started with an implementation of the original FRVSR model and updated it, fixing errors and retraining the network multiple times with revised loss functions. I also incorporated a pre-trained implementation of RAFT and rewrote the FRVSR network to work seamlessly with it.
@@ -86,13 +96,13 @@ Due to resource limitations, the dataset used for training was restricted to a s
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1 data-zoomable" %}
+            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/bicubic.png" title="Low Res Frame" class="img-fluid rounded z-depth-1 data-zoomable" %}
+            {% include figure.html path="assets/img/vsr_6869/bicubic.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/groundtruth.png" title="Ground Truth Frame" class="img-fluid rounded z-depth-1 data-zoomable" %}
+            {% include figure.html path="assets/img/vsr_6869/groundtruth.png" title="Ground Truth Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -103,10 +113,10 @@ Due to resource limitations, the dataset used for training was restricted to a s
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/FRVSR.png" title="Upscaled Frame using FRVSR" class="img-fluid rounded z-depth-1 data-zoomable" %}
+            {% include figure.html path="assets/img/vsr_6869/FRVSR.png" title="Upscaled Frame using FRVSR" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame using my Model" class="img-fluid rounded z-depth-1 data-zoomable" %}
+            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame using my Model" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -124,7 +134,7 @@ In conclusion, this project has demonstrated the potential of enhancing video su
 Sample input and output videos are available below.
 <center>
     <video controls>
-    <source src="assets/video/orig.mp4" type="video/mp4">
+    <source src="/assets/video/orig.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -134,7 +144,7 @@ Sample input and output videos are available below.
 
 <center>
     <video controls>
-    <source src="assets/video/lowres.mp4" type="video/mp4">
+    <source src="/assets/video/lowres.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -144,7 +154,7 @@ Sample input and output videos are available below.
 
 <center>
     <video controls>
-    <source src="assets/video/bicubic.mp4" type="video/mp4">
+    <source src="/assets/video/bicubic.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -154,7 +164,7 @@ Sample input and output videos are available below.
 
 <center>
     <video controls>
-    <source src="assets/video/frvsr.mp4" type="video/mp4">
+    <source src="/assets/video/frvsr.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -164,7 +174,7 @@ Sample input and output videos are available below.
 
 <center>
     <video controls>
-    <source src="assets/video/rafrvsr.mp4" type="video/mp4">
+    <source src="/assets/video/rafrvsr.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <div class="caption">
