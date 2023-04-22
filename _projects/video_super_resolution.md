@@ -39,11 +39,9 @@ The idea behind FRVSR is to use a recurrent network to implement video super-res
         </div>
     </div>
 </div>
-<div class="caption">
-    The FRVSR Model. Image source: https://arxiv.org/pdf/1801.04590.pdf
-
-    <a href=https://arxiv.org/pdf/1801.04590.pdf>Image Source</a>
-</div>
+<center>
+    The FRVSR Model. <a href=https://arxiv.org/pdf/1801.04590.pdf>Image Source</a>
+</center>
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
@@ -51,9 +49,9 @@ The idea behind FRVSR is to use a recurrent network to implement video super-res
         </div>
     </div>
 </div>
-<div class="caption">
-    RAFT Flow Network Model. Image source: https://arxiv.org/pdf/2003.12039.pdf
-</div>
+<center>
+    RAFT Flow Network Model. <a href=https://arxiv.org/pdf/2003.12039.pdf>Image Source</a>
+</center>
 
 To achieve this goal, I started with an implementation of the original FRVSR model and updated it, fixing errors and retraining the network multiple times with revised loss functions. I also incorporated a pre-trained implementation of RAFT and rewrote the FRVSR network to work seamlessly with it.
 
