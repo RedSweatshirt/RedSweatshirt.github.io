@@ -122,7 +122,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/lowres.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Low Res Frame" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/lowres.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Low Res Frame" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -140,7 +140,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/RAFRVSR.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Upscaled Frame" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/RAFRVSR.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Upscaled Frame" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -187,7 +187,32 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
     </div>
 </div>
 <div class="caption">
-    Left, The FRVSR Model &lt;a href=https://arxiv.org/pdf/1801.04590.pdf&gt;[Image Source]&lt;/a&gt;. Right, the RAFT Flow Network Model &lt;a href=https://arxiv.org/pdf/2003.12039.pdf&gt;[Image Source]&lt;/a&gt;.
+    The FRVSR Model. Image source: https://arxiv.org/pdf/1801.04590.pdf
+</div>
+<div class="container">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            <figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/vsr_6869/RAFTModel-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/vsr_6869/RAFTModel-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/vsr_6869/RAFTModel-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/vsr_6869/RAFTModel.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="RAFT Model Diagram" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        </div>
+    </div>
+</div>
+<div class="caption">
+    RAFT Flow Network Model. Image source: https://arxiv.org/pdf/2003.12039.pdf
 </div>
 
 <p>To achieve this goal, I started with an implementation of the original FRVSR model and updated it, fixing errors and retraining the network multiple times with revised loss functions. I also incorporated a pre-trained implementation of RAFT and rewrote the FRVSR network to work seamlessly with it.</p>
@@ -253,7 +278,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/lowres.png" class="img-fluid rounded z-depth-1 data-zoomable" width="auto" height="auto" title="Low Res Frame" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/lowres.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Low Res Frame" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -271,7 +296,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/bicubic.png" class="img-fluid rounded z-depth-1 data-zoomable" width="auto" height="auto" title="Low Res Frame" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/bicubic.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Low Res Frame" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -289,7 +314,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/groundtruth.png" class="img-fluid rounded z-depth-1 data-zoomable" width="auto" height="auto" title="Ground Truth Frame" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/groundtruth.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Ground Truth Frame" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -315,7 +340,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/FRVSR.png" class="img-fluid rounded z-depth-1 data-zoomable" width="auto" height="auto" title="Upscaled Frame using FRVSR" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/FRVSR.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Upscaled Frame using FRVSR" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -333,7 +358,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/vsr_6869/RAFRVSR.png" class="img-fluid rounded z-depth-1 data-zoomable" width="auto" height="auto" title="Upscaled Frame using my Model" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/vsr_6869/RAFRVSR.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Upscaled Frame using my Model" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -356,7 +381,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
 <p>Sample input and output videos are available below.</p>
 <center>
     <video controls="">
-    <source src="assets/video/orig.mp4" type="video/mp4"></source>
+    <source src="/assets/video/orig.mp4" type="video/mp4"></source>
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -366,7 +391,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
 
 <center>
     <video controls="">
-    <source src="assets/video/lowres.mp4" type="video/mp4"></source>
+    <source src="/assets/video/lowres.mp4" type="video/mp4"></source>
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -376,7 +401,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
 
 <center>
     <video controls="">
-    <source src="assets/video/bicubic.mp4" type="video/mp4"></source>
+    <source src="/assets/video/bicubic.mp4" type="video/mp4"></source>
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -386,7 +411,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
 
 <center>
     <video controls="">
-    <source src="assets/video/frvsr.mp4" type="video/mp4"></source>
+    <source src="/assets/video/frvsr.mp4" type="video/mp4"></source>
     Your browser does not support the video tag.
     </video>
     <div class="caption">
@@ -396,7 +421,7 @@ In the pursuit of enhancing video quality, I took on an exciting project for my 
 
 <center>
     <video controls="">
-    <source src="assets/video/rafrvsr.mp4" type="video/mp4"></source>
+    <source src="/assets/video/rafrvsr.mp4" type="video/mp4"></source>
     Your browser does not support the video tag.
     </video>
     <div class="caption">
