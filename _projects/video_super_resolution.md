@@ -133,51 +133,36 @@ In conclusion, this project has demonstrated the potential of enhancing video su
 #### Videos
 Sample input and output videos are available below.
 <center>
-    <video controls>
-    <source src="/assets/video/orig.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1ERXi6uvwsjW-di5ctiRw9Iwj3d_6e1kW/preview" width="640" height="480" allow="autoplay"></iframe>
     <div class="caption">
-        The ground truth video
+        Original, ground truth video
     </div>
 </center>
 
 <center>
-    <video controls>
-    <source src="/assets/video/lowres.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1LBb0chE7gI2G5M3_6PNXoxNe1O1yvmmm/preview" width="640" height="480" allow="autoplay"></iframe>
     <div class="caption">
-        The downscaled low resolution input video
+        Low resolution downsampled input video
     </div>
 </center>
 
 <center>
-    <video controls>
-    <source src="/assets/video/bicubic.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1sDeFrSPj1802UImI0X7FiDc1UWnPUTAi/preview" width="640" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Video upscaled using traditional bicubic interpolation
     </div>
 </center>
 
 <center>
-    <video controls>
-    <source src="/assets/video/frvsr.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1kK_P5xkILrYNeEGdYKOkeAlZ1KkYvnPJ/preview" width="640" height="480" allow="autoplay"></iframe>
     <div class="caption">
         Video upscaled using original FRVSR
     </div>
 </center>
 
 <center>
-    <video controls>
-    <source src="/assets/video/rafrvsr.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video>
+    <iframe src="https://drive.google.com/file/d/1U12v0iP3Y_k5157q8uFU1gKviPLI9tV1/preview" width="640" height="480" allow="autoplay"></iframe>
     <div class="caption">
-        Video upscaled using my method
+        Video upscaled using my revised model
     </div>
 </center>
