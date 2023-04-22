@@ -9,10 +9,10 @@ category: school
 
 <div class="container">
     <div class="row justify-content-sm-center">
-        <div class="col-sm mt-3 mt-md-0">
+        <div class="col-sm-6 mt-3 mt-md-0">
             {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" %}
         </div>
-        <div class="col-sm mt-3 mt-md-0">
+        <div class="col-sm-6 mt-3 mt-md-0">
             {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
@@ -22,13 +22,13 @@ category: school
 </div>
 
 Enhancing Video Quality Using Advanced Neural Networks
-In the pursuit of enhancing video quality, I took on an exciting project for my class Advances in Computer Vision (6.869) at MIT in Spring 2022. The project focused on improving the Frame Recurrent Video Super Resolution (FRVSR) neural network by implementing perceptual loss and incorporating the state-of-the-art RAFT optical flow network.
+In the pursuit of enhancing video quality, I took on an exciting project for my class Advances in Computer Vision (6.869) at MIT in Spring 2022. The project focused on improving the [Frame Recurrent Video Super Resolution](https://arxiv.org/pdf/1801.04590.pdf) (FRVSR) neural network by implementing perceptual loss and incorporating the state-of-the-art [RAFT](https://arxiv.org/pdf/2003.12039.pdf) optical flow network.
 
 #### Motivation
 
 Super-resolution is the process of transforming a low-resolution image or video into a higher-resolution output. This technique is essential in various applications, such as restoring old films, enhancing streaming video quality, and improving the visuals of video games. Traditional methods, like bicubic up-sampling, tend to smooth out textures and edges, causing a loss of high-frequency details. More recent approaches, such as convolutional neural networks (CNNs) and Generative Adversarial Networks (GANs), have shown promising results, but often come with higher computational costs.
 
-The idea behind FRVSR is to use a recurrent adversarial network to implement video super-resolution, providing more temporal consistency and spatial awareness of content in a video. The goal of this project was to enhance the FRVSR network by introducing perceptual loss and replacing the existing FlowNet with the more advanced RAFT network. This would allow the network to focus on high-level content losses while maintaining spatial and temporal consistency.
+The idea behind FRVSR is to use a recurrent network to implement video super-resolution, providing more temporal consistency and spatial awareness of content in a video. FRVSR utilizes SRNet as the super resolution network block, incorporated with FlowNet to  The goal of this project was to enhance the FRVSR network by introducing perceptual loss and replacing the existing FlowNet with the more advanced RAFT network. This would allow the network to focus on high-level content losses while maintaining spatial and temporal consistency.
 
 #### Project Overview
 
@@ -40,10 +40,10 @@ The idea behind FRVSR is to use a recurrent adversarial network to implement vid
     </div>
 </div>
 <div class="caption">
-    Left, The FRVSR Model [(Image Source)](https://arxiv.org/pdf/1801.04590.pdf). Right, the RAFT Flow Network Model [(Image Source)](https://arxiv.org/pdf/2003.12039.pdf).
+    Left, The FRVSR Model <a href=https://arxiv.org/pdf/1801.04590.pdf>[Image Source]</a>. Right, the RAFT Flow Network Model <a href=https://arxiv.org/pdf/2003.12039.pdf>[Image Source]</a>.
 </div>
 
-To achieve this goal, I started with an outdated implementation of FRVSR and updated it, fixing errors and retraining the network multiple times with revised loss functions. I also incorporated a pre-trained implementation of RAFT and rewrote the FRVSR network to work seamlessly with it.
+To achieve this goal, I started with an implementation of the original FRVSR model and updated it, fixing errors and retraining the network multiple times with revised loss functions. I also incorporated a pre-trained implementation of RAFT and rewrote the FRVSR network to work seamlessly with it.
 
 The improved FRVSR network architecture consists of an SRNet super-resolution block and an optical flow network block (RAFT). The previous frame is fed into the flow network, which sends the flow resolution to the super-resolution network, SRNet, to be combined with the actual current low-resolution frame to be upscaled. The SRNet then produces a super-resolved high-resolution output.
 
