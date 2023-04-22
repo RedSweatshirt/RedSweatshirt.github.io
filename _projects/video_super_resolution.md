@@ -12,7 +12,7 @@ category: school
         <div class="col-sm-6 mt-3 mt-md-0">
             {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" %}
         </div>
-        <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="col-sm-5 mt-3 mt-md-0">
             {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
@@ -75,26 +75,43 @@ $$ L_{\text{total video}} = \sum_{i=1}^{n}(L_{\text{frame n}}) $$
 
 These loss functions work together to create a more accurate and visually pleasing super-resolution output while preserving both low and high-level content similarities and maintaining temporal stability.
 
+#### Training
+
+During the training phase of this project, the Vimeo90k dataset, specifically designed for image super-resolution, was utilized. The dataset consists of 7,824 videos, each containing 7 frames. Both high-resolution (448 x 256 pixels) and low-resolution (112 x 64 pixels) versions of the videos were provided. To simplify the process, low-resolution images were upscaled to the output resolution using Bilinear interpolation before being run through the network and compared to their high-resolution counterparts.
+
+Due to resource limitations, the dataset used for training was restricted to a subset of 2,500 videos, with a 20% validation split. The model was trained on an RTX 2070 Super Max-Q laptop GPU, with each of the 10 epochs taking approximately one hour to complete. This resource-conscious approach allowed for efficient model training while still yielding impressive results.
+
 #### Results and Conclusion
 
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1 data-zoomable" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/FRVSR.png" title="Upscaled Frame using FRVSR" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/vsr_6869/bicubic.png" title="Low Res Frame" class="img-fluid rounded z-depth-1 data-zoomable" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame using my Model" class="img-fluid rounded z-depth-1" %}
-        </div>
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/groundtruth.png" title="Ground Truth Frame" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/vsr_6869/groundtruth.png" title="Ground Truth Frame" class="img-fluid rounded z-depth-1 data-zoomable" %}
         </div>
     </div>
 </div>
 <div class="caption">
-    On the left, a frame from a low resolution video. Middle Left, an upscaled frame using the base FRVSR model. Middle Right, an upscaled frame using my Model. Right, the ground truth frame
+    On the left, a frame from a low resolution video. Middle, the frame upscaled using traditional bicubic interpolation. Right, the ground truth frame.
+</div>
+
+<div class="container">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/vsr_6869/FRVSR.png" title="Upscaled Frame using FRVSR" class="img-fluid rounded z-depth-1 data-zoomable" %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame using my Model" class="img-fluid rounded z-depth-1 data-zoomable" %}
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Left, the frame upscaled using the original FRVSR. Right, the frame upscaled using my new model.
 </div>
 
 To evaluate the results, I focused on qualitative details, peak signal-to-noise ratio (PSNR), and structural similarity index (SSIM). The improved network produced visually pleasing images with finer texture detail and sharper edges compared to the original FRVSR. However, it also suffered from amplifying noise present in the videos, causing the average PSNR and SSIM to be lower than expected.
@@ -102,3 +119,55 @@ To evaluate the results, I focused on qualitative details, peak signal-to-noise 
 Despite this drawback, the modified network shows promise in producing visually pleasing results compared to the original FRVSR when trained on the same dataset and with the same hyperparameters. Further improvements can be made by refining the loss functions, using more robust datasets, and increasing the dataset size, batch size, and number of epochs trained. For this project in particular, due to limited GPU resources and time constraints, the number of epochs trained during the project was lower than desired. This impacted the overall performance of the model, as it could have potentially improved further with additional training time.
 
 In conclusion, this project has demonstrated the potential of enhancing video super-resolution using advanced neural networks and incorporating perceptual loss and RAFT. With further research and optimization, these techniques can be applied in a wide range of applications to significantly improve video quality.
+
+#### Videos
+Sample input and output videos are available below.
+<center>
+    <video controls>
+    <source src="assets/video/orig.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <div class="caption">
+        The ground truth video
+    </div>
+</center>
+
+<center>
+    <video controls>
+    <source src="assets/video/lowres.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <div class="caption">
+        The downscaled low resolution input video
+    </div>
+</center>
+
+<center>
+    <video controls>
+    <source src="assets/video/bicubic.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <div class="caption">
+        Video upscaled using traditional bicubic interpolation
+    </div>
+</center>
+
+<center>
+    <video controls>
+    <source src="assets/video/frvsr.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <div class="caption">
+        Video upscaled using original FRVSR
+    </div>
+</center>
+
+<center>
+    <video controls>
+    <source src="assets/video/rafrvsr.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <div class="caption">
+        Video upscaled using my method
+    </div>
+</center>
