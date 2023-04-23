@@ -2,7 +2,7 @@
 layout: page
 title: FEDWatcher, A Raspberry Pi Interface for FED3 Devices
 description: Research at MIT Choi Labs
-img: assets/img/FEDWatcher/fedwatcher-logo.png
+img: assets/img/FEDWatcher/fedwatcher_logo.png
 importance: 3
 category: work
 ---
@@ -49,8 +49,6 @@ The [Github repository](https://github.com/matiasandina/FEDWatcher) for FEDWatch
 3. Files for printing the PCB, used as a Raspberry Pi HAT for easier interfacing with the Raspberry Pi 4 pinout.
 4. Python code for the FEDWatcher GUI, enabling users to create projects and trigger FEDWatcher easily.
 
-#### My Role
-
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
@@ -64,6 +62,8 @@ The [Github repository](https://github.com/matiasandina/FEDWatcher) for FEDWatch
 <div class="caption">
     Left, circuit diagram for the Raspberry Pi UART interfaces. Right, the FEDWatcher GUI
 </div>
+
+#### My Role
 
 As a developer on the FEDWatcher team, my primary responsibilities included adapting the open-source FED3 mouse feeder systems for remote monitoring capabilities, engineering new hardware to interface the offline mouse feeder using a Raspberry Pi for internet connectivity, and developing software for the Raspberry Pi to monitor the mouse feeders and transmit data and alerts autonomously.
 
