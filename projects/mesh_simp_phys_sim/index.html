@@ -112,7 +112,7 @@
           </header>
 
           <article>
-            <div class="container">
+            <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             <figure>
@@ -125,7 +125,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/mesh_simp_phys_sim/cow.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Spot the Cow" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/mesh_simp_phys_sim/cow.png" class="img-fluid rounded z-depth-1" width="400" height="auto" title="Spot the Cow" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
 
@@ -133,7 +133,7 @@
 
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     The mesh for Spot the Cow.
 </div>
@@ -154,7 +154,7 @@
 </ol>
 
 <h4 id="mesh-decimation-algorithms">Mesh Decimation Algorithms</h4>
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             <figure>
@@ -175,7 +175,7 @@
 
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     Results of Van Gelder Decimation.
 </div>
@@ -185,7 +185,7 @@
 <p>To perform physics simulations on the decimated mesh, we used a finite element method (FEM) non-linear physics simulation. This algorithm accepts a decimated tetrahedral mesh, applies an elastic material, and uses specified boundary conditions and external forces to solve for new vertex locations of the non-static elements in the input mesh, simulating how the mesh would deform under the specified conditions.</p>
 
 <h4 id="weighted-handles-and-the-k-d-tree-structure">Weighted Handles and the K-D Tree Structure</h4>
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             <figure>
@@ -205,8 +205,6 @@
 </figure>
 
         </div>
-    </div>
-    <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             <figure>
 
@@ -226,9 +224,9 @@
 
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
-    Results.
+    Left, direct method of interpolation. Right, our method of interpolation.
 </div>
 <p>To mirror the simulation deformation from the decimated mesh to the target mesh, we employed weighted handles inspired by their ability to quickly deform meshes, as well as the KD Tree data structure for acceleration. Handles were sampled from the surface of the decimated mesh before running FEM, and the KD Tree structure helped approximate similar locations to place the handles on the target mesh. After running FEM on the decimated mesh, we applied the deformation to the corresponding handles on the target mesh, effectively mirroring the FEM deformation.</p>
 
@@ -236,7 +234,7 @@
 <p>We experimented with different settings for decimation amount and handle sampling methods to achieve visually accurate results. The mesh decimation algorithms performed well, and we found that placing handles on the surface of our meshes was most effective. In testing, we discovered that under large forces, our simulation became increasingly inaccurate. However, we found that scaling the force applied to the decimated mesh based on the decimation amount would improve accuracy.</p>
 
 <h4 id="conclusion">Conclusion</h4>
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             <figure>
@@ -257,7 +255,7 @@
 
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     Results.
 </div>
