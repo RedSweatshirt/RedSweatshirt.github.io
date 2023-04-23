@@ -7,13 +7,13 @@ importance: 1
 category: school
 ---
 
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/mesh_simp_phys_sim/cow.png" title="Spot the Cow" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/mesh_simp_phys_sim/cow.png" title="Spot the Cow" class="img-fluid rounded z-depth-1" width="400" %}
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     The mesh for Spot the Cow.
 </div>
@@ -32,13 +32,13 @@ Our method involves three main steps:
 3. Mirror the simulation deformation on the decimated mesh on the target mesh: We used weighted handles, inspired by their ability to quickly deform meshes, and the KD Tree data structure.
 
 #### Mesh Decimation Algorithms
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/mesh_simp_phys_sim/vg_dec.png" title="Results of Van Gelder Decimation" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     Results of Van Gelder Decimation.
 </div>
@@ -48,20 +48,18 @@ Our mesh simplification approach drew upon research in mesh and volume decimatio
 To perform physics simulations on the decimated mesh, we used a finite element method (FEM) non-linear physics simulation. This algorithm accepts a decimated tetrahedral mesh, applies an elastic material, and uses specified boundary conditions and external forces to solve for new vertex locations of the non-static elements in the input mesh, simulating how the mesh would deform under the specified conditions.
 
 #### Weighted Handles and the K-D Tree Structure
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/mesh_simp_phys_sim/direct_interp.png" title="Direct Interpolation" class="img-fluid rounded z-depth-1" %}
         </div>
-    </div>
-    <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/mesh_simp_phys_sim/our_interp.png" title="Our Interpolation" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
-    Results.
+    Left, direct method of interpolation. Right, our method of interpolation.
 </div>
 To mirror the simulation deformation from the decimated mesh to the target mesh, we employed weighted handles inspired by their ability to quickly deform meshes, as well as the KD Tree data structure for acceleration. Handles were sampled from the surface of the decimated mesh before running FEM, and the KD Tree structure helped approximate similar locations to place the handles on the target mesh. After running FEM on the decimated mesh, we applied the deformation to the corresponding handles on the target mesh, effectively mirroring the FEM deformation.
 
@@ -69,13 +67,13 @@ To mirror the simulation deformation from the decimated mesh to the target mesh,
 We experimented with different settings for decimation amount and handle sampling methods to achieve visually accurate results. The mesh decimation algorithms performed well, and we found that placing handles on the surface of our meshes was most effective. In testing, we discovered that under large forces, our simulation became increasingly inaccurate. However, we found that scaling the force applied to the decimated mesh based on the decimation amount would improve accuracy.
 
 #### Conclusion
-<div class="container">
+<center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/mesh_simp_phys_sim/results.png" title="Our Results" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
-</div>
+</center>
 <div class="caption">
     Results.
 </div>
