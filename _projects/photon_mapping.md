@@ -18,7 +18,7 @@ category: school
     </div>
 </div>
 <div class="caption">
-    On the left, a ray traced Cornell box replica. Right, a ray traced Cornell box with Photon Mapping.
+    First Image: A ray traced Cornell box replica. Second Image: A ray traced Cornell box with Photon Mapping.
 </div>
 
 During our computer graphics class at MIT (6.837) in Fall 2022, a class partner and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.
@@ -39,7 +39,7 @@ Our refraction implementation was based on a [University of Washington lecture](
     </div>
 </div>
 <div class="caption">
-    On the left, a ray traced Cornell box with Photon Mapping. Right, a visualization of 100k photons generated, colors amplified for visibility.
+    First Image: A ray traced Cornell box with Photon Mapping. Second Image: A visualization of 100k photons generated, colors amplified for visibility.
 </div>
 
 Our photon mapping work was based on the paper ["A Practical Guide to Global Illumination using Photon Maps"](https://graphics.stanford.edu/courses/cs348b-00/course8.pdf) by Niels Jorgen Christensen and Henrik Wann Jensen, presented at Siggraph 2000. We created the photon map by casting rays randomly from a point light, with each ray representing a photon carrying a portion of the light's energy. Photons could undergo diffuse reflection, specular reflection, absorption, or refraction upon intersection with an object. To implement caustics, we created a secondary photon map that cast more photons but only stored interactions with refractive materials.

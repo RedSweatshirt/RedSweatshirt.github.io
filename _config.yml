@@ -11,7 +11,12 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   John Eastman's personal Website
 footer_text: >
 # Text here if you want it
-keywords: academic-website, portfolio-website, john-eastman, jack-eastman, computer-science, computer-graphics, computer-vision  # add your own keywords or leave empty
+keywords: > # add your own keywords or leave empty
+  portfolio, portfolio-website,
+  john-eastman, jack-eastman,
+  mit, massachusetts-institute-of-technology,
+  computer-science, computer-graphics, computer-vision,
+  software-engineer, software-developer,
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🍁  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

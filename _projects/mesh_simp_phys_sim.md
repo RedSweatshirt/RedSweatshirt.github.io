@@ -59,7 +59,7 @@ To perform physics simulations on the decimated mesh, we used a finite element m
     </div>
 </center>
 <div class="caption">
-    Left, direct method of interpolation. Right, our method of interpolation.
+    First Image: Direct method of interpolation. Second Image: Our method of interpolation.
 </div>
 To mirror the simulation deformation from the decimated mesh to the target mesh, we employed weighted handles inspired by their ability to quickly deform meshes, as well as the KD Tree data structure for acceleration. Handles were sampled from the surface of the decimated mesh before running FEM, and the KD Tree structure helped approximate similar locations to place the handles on the target mesh. After running FEM on the decimated mesh, we applied the deformation to the corresponding handles on the target mesh, effectively mirroring the FEM deformation.
 
@@ -75,7 +75,7 @@ We experimented with different settings for decimation amount and handle samplin
     </div>
 </center>
 <div class="caption">
-    Results.
+    Performance Results.
 </div>
 Our algorithm effectively reduces the computational cost of FEM simulation, thus reducing the required time to run such simulations. We achieved visually accurate approximations, cutting time from iterative workflows that employ the use of FEM. For future work, we could explore an implementation of Van Gelder that includes a surface geometry metric or analyze our system with dynamic FEM.
 

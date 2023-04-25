@@ -18,7 +18,7 @@ category: school
     </div>
 </div>
 <div class="caption">
-    On the left, a frame from a low resolution video. Right, the same upscaled frame using my model.
+    First Image: A frame from a low resolution video. Second Image: The same upscaled frame using my model.
 </div>
 
 Enhancing Video Quality Using Advanced Neural Networks
@@ -107,7 +107,7 @@ Due to resource limitations, the dataset used for training was restricted to a s
     </div>
 </div>
 <div class="caption">
-    On the left, a frame from a low resolution video. Middle, the frame upscaled using traditional bicubic interpolation. Right, the ground truth frame.
+    First Image: A frame from a low resolution video. Second Image: The frame upscaled using traditional bicubic interpolation. Third Image: The ground truth frame.
 </div>
 
 <div class="container">
@@ -121,7 +121,7 @@ Due to resource limitations, the dataset used for training was restricted to a s
     </div>
 </div>
 <div class="caption">
-    Left, the frame upscaled using the original FRVSR. Right, the frame upscaled using my new model.
+    First Image: The frame upscaled using the original FRVSR. Second Image: The frame upscaled using my new model.
 </div>
 
 To evaluate the results, I focused on qualitative details, peak signal-to-noise ratio (PSNR), and structural similarity index (SSIM). The improved network produced visually pleasing images with finer texture detail and sharper edges compared to the original FRVSR. However, it also suffered from amplifying noise present in the videos, causing the average PSNR and SSIM to be lower than expected.

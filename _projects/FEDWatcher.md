@@ -60,7 +60,7 @@ The [Github repository](https://github.com/matiasandina/FEDWatcher) for FEDWatch
     </div>
 </div>
 <div class="caption">
-    Left, circuit diagram for the Raspberry Pi UART interfaces. Right, the FEDWatcher GUI
+    First Image: Circuit diagram for the Raspberry Pi UART interfaces. Second Image: The FEDWatcher GUI
 </div>
 
 #### My Role
