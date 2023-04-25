@@ -13,7 +13,8 @@
     <title>Mesh Simplification for Accelerated Physics Simulation | John Eastman</title>
     <meta name="author" content="John  Eastman">
     <meta name="description" content="MIT Computational Design and Fabrication (6.8420) Final Project">
-    <meta name="keywords" content="academic-website, portfolio-website, john-eastman, jack-eastman, computer-science, computer-graphics, computer-vision">
+    <meta name="keywords" content="portfolio, portfolio-website, john-eastman, jack-eastman, mit, massachusetts-institute-of-technology, computer-science, computer-graphics, computer-vision, software-engineer, software-developer,
+">
 
 
     <!-- Bootstrap & MDB -->
@@ -226,7 +227,7 @@
     </div>
 </center>
 <div class="caption">
-    Left, direct method of interpolation. Right, our method of interpolation.
+    First Image: Direct method of interpolation. Second Image: Our method of interpolation.
 </div>
 <p>To mirror the simulation deformation from the decimated mesh to the target mesh, we employed weighted handles inspired by their ability to quickly deform meshes, as well as the KD Tree data structure for acceleration. Handles were sampled from the surface of the decimated mesh before running FEM, and the KD Tree structure helped approximate similar locations to place the handles on the target mesh. After running FEM on the decimated mesh, we applied the deformation to the corresponding handles on the target mesh, effectively mirroring the FEM deformation.</p>
 
@@ -257,7 +258,7 @@
     </div>
 </center>
 <div class="caption">
-    Results.
+    Performance Results.
 </div>
 <p>Our algorithm effectively reduces the computational cost of FEM simulation, thus reducing the required time to run such simulations. We achieved visually accurate approximations, cutting time from iterative workflows that employ the use of FEM. For future work, we could explore an implementation of Van Gelder that includes a surface geometry metric or analyze our system with dynamic FEM.</p>
 
