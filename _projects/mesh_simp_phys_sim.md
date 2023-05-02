@@ -19,7 +19,7 @@ category: school
 </div>
 
 #### Introduction
-Physics simulations are an integral part of computationally-aided design workflows, such as animation and modeling. However, these simulations can be time-consuming. To address this issue, for our final project in the MIT course MIT Computational Design and Fabrication (6.8420), my partner and I developed an approximation algorithm that produces accurate yet fast physics simulations. Our algorithm involves creating a decimated copy of the target mesh, running the intended physics simulation on this copy, and then translating simulation deformation from the decimated copy to the target mesh using weighted handles.
+Physics simulations are an integral part of computationally-aided design workflows, such as animation and modeling. However, these simulations can be time-consuming. To address this issue, for our final project in the MIT course MIT Computational Design and Fabrication (6.8420) in Fall 2022, my partner and I developed an approximation algorithm that produces accurate yet fast physics simulations. Our algorithm involves creating a decimated copy of the target mesh, running the intended physics simulation on this copy, and then translating simulation deformation from the decimated copy to the target mesh using weighted handles.
 
 #### My Role
 In this project, my primary focus was on the mesh simplification algorithms, while my partner worked on the interpolation/approximation step, which would mirror the simulation step from the low resolution model to the high resolution model. To reach this end, I referenced research on mesh and volume decimation methodology, including the Garland-Heckbert mesh decimation using quadric error metrics method and Van Gelder volume decimation method.

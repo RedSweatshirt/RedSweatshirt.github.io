@@ -21,7 +21,7 @@ category: school
     First Image: A ray traced Cornell box replica. Second Image: A ray traced Cornell box with Photon Mapping.
 </div>
 
-During our computer graphics class at MIT (6.837) in Fall 2022, a class partner and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.
+During our computer graphics class at MIT (6.837) in Fall 2021, a class partner and I embarked on an exciting project to solve the problem of global illumination. Our aim was to move beyond the simplistic approach of ambient lighting in the Phong shader model and develop a more realistic model that simulates light bouncing around surfaces and reflecting onto other surfaces, creating global illumination. Working together, we chose to implement photon mapping, optimized using a k-d tree data structure. Additionally, we incorporated refraction to power caustics, contributing to a more authentic rendering of the scene.
 
 #### Refraction
 
