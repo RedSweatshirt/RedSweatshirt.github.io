@@ -10,7 +10,7 @@ cv_pdf: JohnEastmanResume.pdf
 ### <a href="/assets/pdf/JohnEastmanResume.pdf">Resume PDF</a>
 
 ## <center>Education</center>
-### [Massachusetts Institute of Technology](https://mit.edu/) [Sept. 2019 - May 2023]
+### [Massachusetts Institute of Technology](https://mit.edu/) [Sept. 2019 - June 2023]
 #### Bachelor of Science in Computer Science and Engineering, Minor in Japanese
 - GPA: 4.7/5.0
 - Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning. 
@@ -18,12 +18,12 @@ cv_pdf: JohnEastmanResume.pdf
 ---
 
 ## <center>Experience</center>
-### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2022 - Present]
+### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2022 - May 2022]
 #### Undergraduate Researcher - [Computational Design and Fabrication Group](https://cdfg.mit.edu/)
-- Collaborating with a skilled team to develop a differentiable rigid body physics simulation for underwater gliders.
-- Adapting and enhancing Google's open-source Brax physics simulator to accommodate hydrodynamic forces for more accurate simulations.
-- Implementing precise prismatic joint connections and dynamic mass changes.
-- Assisting the design team in developing physical prototypes by providing data-driven physics simulations.
+- Collaborated with a multidisciplinary team to develop a rigid body physics simulation for underwater gliders.
+- Implemented differentiable hydrodynamic forces, including lift and drag, as well as changes in mass into Nvidia’s differentiable simulation Python framework “Warp”, utilizing CUDA acceleration.
+- Optimized glider hull design using gradient descent on differentiated forces with respect to glider shape.
+- Enabled glider to optimize controls for faster horizontal speed or faster vertical descent.
 
 ### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2022 - Dec. 2022]
 #### Undergraduate Teaching Assistant

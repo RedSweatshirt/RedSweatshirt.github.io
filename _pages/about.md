@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### Welcome to Jack's portfolio page
 
-Hi, I'm Jack! I'm a fourth-year B.S. Computer Science and Engineering student at Massachusetts Institute of Technology. Passionate about computational design, computer graphics, and computer vision, I have had the opportunity to hone my skills and apply my knowledge through various academic and industry experiences. In this space, I would like to share more about my journey and the projects I've worked on.
+Hi, I'm Jack! I'm a graduate from the Massachusetts Institute of Technology with a B.S. in Computer Science and Engineering. Passionate about computational design, computer graphics, and computer vision, I have had the opportunity to hone my skills and apply my knowledge through various academic and industry experiences. In this space, I would like to share more about my journey and the projects I've worked on.
 
 #### My Interests
 
