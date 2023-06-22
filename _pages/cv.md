@@ -10,15 +10,17 @@ cv_pdf: JohnEastmanResume.pdf
 ### <a href="/assets/pdf/JohnEastmanResume.pdf">Resume PDF</a>
 
 ## <center>Education</center>
-### [Massachusetts Institute of Technology](https://mit.edu/) [Sept. 2019 - June 2023]
-#### Bachelor of Science in Computer Science and Engineering, Minor in Japanese
+### [Massachusetts Institute of Technology](https://mit.edu/) 
+#### Master of Engineering in Electrical Engineering and Computer Science [Expected June 2024]
+- Concentration in Computer Graphics and Human Computer Interaction
+#### Bachelor of Science in Computer Science and Engineering, Minor in Japanese [June 2023]
 - GPA: 4.7/5.0
 - Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning. 
 
 ---
 
 ## <center>Experience</center>
-### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2022 - May 2022]
+### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2023 - May 2023]
 #### Undergraduate Researcher - [Computational Design and Fabrication Group](https://cdfg.mit.edu/)
 - Collaborated with a multidisciplinary team to develop a rigid body physics simulation for underwater gliders.
 - Implemented differentiable hydrodynamic forces, including lift and drag, as well as changes in mass into Nvidia’s differentiable simulation Python framework “Warp”, utilizing CUDA acceleration.
@@ -33,9 +35,10 @@ cv_pdf: JohnEastmanResume.pdf
 
 ### [Intel Corporation](https://www.intel.com) [May 2022 – Aug. 2022]
 #### 3D Acceleration Intern
-- Developed discrete GPU driver modifications to resolve bugs and improve Direct3D performance for Windows.
-- Performed in-depth data collection and analysis of GPU performance utilizing advanced performance tools.
-- Provided technical support to developers in using GPU systems for performance analysis. 
+- Developed discrete GPU driver updates to resolve bugs and enhance Direct3D performance for Windows.
+- Performed in-depth GPU performance profiling and analysis utilizing advanced analysis tools.
+- Engaged with modern DirectX9, DirectX11, and DirectX12 3D titles in Windows.
+- Provided technical support to developers using GPU systems for performance analysis.
 
 ### [MIT Mechanical Engineering Dept.](https://meche.mit.edu/) [June 2021 – Sept. 2021]
 #### Undergraduate Researcher - Backend Server Development
