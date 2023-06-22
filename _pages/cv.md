@@ -13,6 +13,7 @@ cv_pdf: JohnEastmanResume.pdf
 ### [Massachusetts Institute of Technology](https://mit.edu/) 
 #### Master of Engineering in Electrical Engineering and Computer Science [Expected June 2024]
 - Concentration in Computer Graphics and Human Computer Interaction
+
 #### Bachelor of Science in Computer Science and Engineering, Minor in Japanese [June 2023]
 - GPA: 4.7/5.0
 - Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning. 
