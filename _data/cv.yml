@@ -38,10 +38,10 @@
       institution: MIT Computer Science and Artificial Intelligence Laboratory
       year: Feb. 2023 - Aug. 2023
       description:
-        - Collaborating with a skilled team to develop a differentiable rigid body physics simulation for underwater gliders.
-        - Adapting and enhancing Google's open-source Brax physics simulator to accommodate hydrodynamic forces for more accurate simulations.
-        - Implementing precise prismatic joint connections and dynamic mass changes.
-        - Assisting the design team in developing physical prototypes by providing data-driven physics simulations.
+        - Collaborated with a multidisciplinary team to develop a rigid body physics simulation for underwater gliders.
+        - Implemented differentiable hydrodynamic forces, including lift and drag, as well as changes in mass into Nvidia's differentiable simulation Python framework “Warp”, utilizing CUDA acceleration.
+        - Optimized glider hull design using gradient descent on differentiated forces with respect to glider shape.
+        - Enabled glider to optimize controls for faster horizontal speed or faster vertical descent.
     - title: Undergraduate Teaching Assistant
       institution: MIT Electrical Engineering and Computer Science Dept.
       year: Sept. 2022 - Dec. 2022
