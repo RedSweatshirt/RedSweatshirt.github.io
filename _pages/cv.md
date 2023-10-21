@@ -1,11 +1,13 @@
 ---
-layout: pdf-page
+layout: page
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-pdf: JohnEastmanResume.pdf
+cv_pdf: JohnEastmanResume.pdf
 ---
+
+### <a href="/assets/pdf/JohnEastmanResume.pdf">Resume PDF</a>
 
 ## <center>Education</center>
 ### [Massachusetts Institute of Technology](https://mit.edu/) 
@@ -19,21 +21,7 @@ pdf: JohnEastmanResume.pdf
 ---
 
 ## <center>Experience</center>
-
-### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2023 - Present]
-#### Graduate Teaching Assistant
-- Serving as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400).
-- Conduct weekly office hours, address student queries on Piazza, and provide academic support.
-- Compose and graded exam questions, as well as evaluate homework assignments.
-
-### [Second Front Systems](https://www.secondfront.com/) [July 2023 - Aug. 2023]
-#### Data Science Intern
-- Engineered Dash and Plotly dashboards with dynamic filtering and pagination for real-time data visualization.
-- Implemented polynomial regression models for advanced trend analysis and future performance prediction.
-- Developed a data export feature, enabling users to download filtered data as CSV files.
-- Structured the Python codebase for modularity and Docker deployment.
-
-### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2023 - Aug. 2023]
+### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2023 - May 2023]
 #### Undergraduate Researcher - [Computational Design and Fabrication Group](https://cdfg.mit.edu/)
 - Collaborated with a multidisciplinary team to develop a rigid body physics simulation for underwater gliders.
 - Implemented differentiable hydrodynamic forces, including lift and drag, as well as changes in mass into Nvidia’s differentiable simulation Python framework “Warp”, utilizing CUDA acceleration.

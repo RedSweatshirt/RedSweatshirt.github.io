@@ -19,29 +19,14 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Graduate Teaching Assistant
-      institution: MIT Electrical Engineering and Computer Science Dept.
-      year: Sept. 2023 - Present
-      description:
-        - Serving as a TA for the Advanced Undergraduate Subject Computer Graphics (6.4400).
-        - Conduct weekly office hours, address student queries on Piazza, and provide academic support.
-        - Compose and grade exam questions, as well as evaluate homework assignments.
-    - title: Data Science Intern
-      institution: Second Front Systems
-      year: July 2023 - Aug. 2023
-      description:
-        - Engineered Dash and Plotly dashboards with dynamic filtering and pagination for real-time data visualization.
-        - Implemented polynomial regression models for advanced trend analysis and future performance prediction.
-        - Developed a data export feature, enabling users to download filtered data as CSV files.
-        - Structured the Python codebase for modularity and Docker deployment.
     - title: Undergraduate Researcher - Computational Design and Fabrication Group
       institution: MIT Computer Science and Artificial Intelligence Laboratory
-      year: Feb. 2023 - Aug. 2023
+      year: Feb. 2022 - Present
       description:
-        - Collaborated with a multidisciplinary team to develop a rigid body physics simulation for underwater gliders.
-        - Implemented differentiable hydrodynamic forces, including lift and drag, as well as changes in mass into Nvidia's differentiable simulation Python framework “Warp”, utilizing CUDA acceleration.
-        - Optimized glider hull design using gradient descent on differentiated forces with respect to glider shape.
-        - Enabled glider to optimize controls for faster horizontal speed or faster vertical descent.
+        - Collaborating with a skilled team to develop a differentiable rigid body physics simulation for underwater gliders.
+        - Adapting and enhancing Google's open-source Brax physics simulator to accommodate hydrodynamic forces for more accurate simulations.
+        - Implementing precise prismatic joint connections and dynamic mass changes.
+        - Assisting the design team in developing physical prototypes by providing data-driven physics simulations.
     - title: Undergraduate Teaching Assistant
       institution: MIT Electrical Engineering and Computer Science Dept.
       year: Sept. 2022 - Dec. 2022
