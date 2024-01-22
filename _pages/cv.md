@@ -10,17 +10,19 @@ pdf: JohnEastmanResume.pdf
 ## <center>Education</center>
 ### [Massachusetts Institute of Technology](https://mit.edu/) 
 #### Master of Engineering in Electrical Engineering and Computer Science [Expected June 2024]
+- GPA: 5.0/5.0
 - Concentration in Computer Graphics and Human Computer Interaction
+- Notable Courses: Computational Design and Fabrication, Advances in Computer Vision, Machine Learning for Inverse Graphics, Shape Analysis, Advanced Computational Photography.
 
 #### Bachelor of Science in Computer Science and Engineering, Minor in Japanese [June 2023]
 - GPA: 4.7/5.0
-- Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning. 
+- Notable Courses: Computer Graphics, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning.
 
 ---
 
 ## <center>Experience</center>
 
-### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2023 - Present]
+### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2023 - Dec. 2023]
 #### Graduate Teaching Assistant
 - Serving as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400).
 - Conduct weekly office hours, address student queries on Piazza, and provide academic support.

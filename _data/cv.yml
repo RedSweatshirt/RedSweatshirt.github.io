@@ -9,19 +9,24 @@
 - title: Education
   type: time_table
   contents:
+    - title: Master of Engineering in Electrical Engineering and Computer Science
+      institution: Massachusetts Institute of Technology
+      year: 2023 - 2024
+      description:
+        - Notable Courses: Computational Design and Fabrication, Advances in Computer Vision, Machine Learning for Inverse Graphics, Shape Analysis, Advanced Computational Photography.
     - title: Bachelor of Science in Computer Science and Engineering
       institution: Massachusetts Institute of Technology
       year: 2019 - 2023
       description:
         - Minor in Japanese
-        - Notable Courses: Shape Analysis, Computational Design and Fabrication, Computer Graphics, Advances in Computer Vision, Adv. Computational Photography, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning.
+        - Notable Courses: Computer Graphics, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning.
 
 - title: Experience
   type: time_table
   contents:
     - title: Graduate Teaching Assistant
       institution: MIT Electrical Engineering and Computer Science Dept.
-      year: Sept. 2023 - Present
+      year: Sept. 2023 - Dec. 2023
       description:
         - Serving as a TA for the Advanced Undergraduate Subject Computer Graphics (6.4400).
         - Conduct weekly office hours, address student queries on Piazza, and provide academic support.
