@@ -9,7 +9,7 @@ pdf: JohnEastmanResume.pdf
 
 ## <center>Education</center>
 ### [Massachusetts Institute of Technology](https://mit.edu/) 
-#### Master of Engineering in Electrical Engineering and Computer Science [Expected June 2024]
+#### Master of Engineering in Electrical Engineering and Computer Science [Expected Sept. 2024]
 - GPA: 5.0/5.0
 - Concentration in Computer Graphics and Human Computer Interaction
 - Notable Courses: Computational Design and Fabrication, Advances in Computer Vision, Machine Learning for Inverse Graphics, Shape Analysis, Advanced Computational Photography.
@@ -49,7 +49,7 @@ pdf: JohnEastmanResume.pdf
 - Composed and graded exam questions, as well as evaluated homework assignments.
 
 ### [Intel Corporation](https://www.intel.com) [May 2022 – Aug. 2022]
-#### 3D Acceleration Intern
+#### 3D Acceleration Software Engineer Intern
 - Developed discrete GPU driver updates to resolve bugs and enhance Direct3D performance for Windows.
 - Performed in-depth GPU performance profiling and analysis utilizing advanced analysis tools.
 - Engaged with modern DirectX9, DirectX11, and DirectX12 3D titles in Windows.
@@ -72,6 +72,27 @@ pdf: JohnEastmanResume.pdf
 - Developed Python command-line scripts to process raw bank statement data and perform data analysis.
 - Categorized transactions into groups using Natural Language Processing techniques.
 - Verified users' income, expenses, spending, and credit history and generated customer analysis and statistics.
+
+---
+
+## <center>Projects</center>
+
+### Tiny Light Field Network for Efficient 3D Scene Rendering
+- Developed a compact version of a Light Field Network (LFN) using novel deep learning methods to efficiently synthesize 3D scenes from 2D data.
+- Utilized plucker coordinates and a RELU hypernetwork to optimize scene reconstruction and view synthesis.
+
+### Mesh Simplification for Accelerated Physics Simulation
+- Engineered Garland-Heckbert mesh decimation and Van Gelder volume decimation algorithms in C++.
+- Integrated Finite Element Method (FEM) for non-linear physics simulation on simplified meshes.
+- Implemented Biharmonic weights to project simulated deformation from simplified mesh to the original mesh.
+
+### Improved Loss Function for Frame Recurrent Video Super Resolution
+- Augmented original implementation of FRVSR model in Python using PyTorch and retrained it.
+- Integrated cutting-edge pre-trained RAFT flow network model to increase flow accuracy.
+- Developed novel loss function, leveraging Perceptual Loss using VGG19 model to improve visual quality.
+
+### Photon Mapping
+- Implemented a raytracing algorithm in C++, incorporating refraction, total internal reflection (via Snell's law), and global illumination through Photon Mapping with k-d tree acceleration.
 
 ---
 
