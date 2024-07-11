@@ -10,7 +10,7 @@ category: school
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/mesh_simp_phys_sim/cow.png" title="Spot the Cow" class="img-fluid rounded z-depth-1" width="400" %}
+            {% include figure.liquid path="assets/img/mesh_simp_phys_sim/cow.png" title="Spot the Cow" class="img-fluid rounded z-depth-1" width="400" %}
         </div>
     </div>
 </center>
@@ -35,7 +35,7 @@ Our method involves three main steps:
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/mesh_simp_phys_sim/vg_dec.png" title="Results of Van Gelder Decimation" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/mesh_simp_phys_sim/vg_dec.png" title="Results of Van Gelder Decimation" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </center>
@@ -51,10 +51,10 @@ To perform physics simulations on the decimated mesh, we used a finite element m
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/mesh_simp_phys_sim/direct_interp.png" title="Direct Interpolation" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/mesh_simp_phys_sim/direct_interp.png" title="Direct Interpolation" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/mesh_simp_phys_sim/our_interp.png" title="Our Interpolation" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/mesh_simp_phys_sim/our_interp.png" title="Our Interpolation" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </center>
@@ -70,7 +70,7 @@ We experimented with different settings for decimation amount and handle samplin
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/mesh_simp_phys_sim/results.png" title="Our Results" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/mesh_simp_phys_sim/results.png" title="Our Results" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </center>

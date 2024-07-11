@@ -10,10 +10,10 @@ category: school
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/photon_mapping_6837/rt_cornellbox.png" title="Ray Traced Cornell Box" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/photon_mapping_6837/rt_cornellbox.png" title="Ray Traced Cornell Box" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/photon_mapping_6837/rt_pm_cornellbox.png" title="Ray Traced Cornell Box with Photon Mapping" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/photon_mapping_6837/rt_pm_cornellbox.png" title="Ray Traced Cornell Box with Photon Mapping" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -31,10 +31,10 @@ Our refraction implementation was based on a [University of Washington lecture](
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/photon_mapping_6837/rt_pm_cornellbox.png" title="Ray Traced Cornell Box with Photon Mapping" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/photon_mapping_6837/rt_pm_cornellbox.png" title="Ray Traced Cornell Box with Photon Mapping" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/photon_mapping_6837/pm_vis_cornellbox.png" title="Cornell Box with Photon Visualization" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/photon_mapping_6837/pm_vis_cornellbox.png" title="Cornell Box with Photon Visualization" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -53,7 +53,7 @@ For gathering photons, we employed a radiance estimate function that collected a
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/photon_mapping_6837/rt_perf.png" title="Ray Tracing Performance by Data Structure" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/photon_mapping_6837/rt_perf.png" title="Ray Tracing Performance by Data Structure" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </center>

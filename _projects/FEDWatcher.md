@@ -10,7 +10,7 @@ category: work
 <center>
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/FEDWatcher/fedwatcher_logo.png" title="FEDWatcher logo" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/FEDWatcher/fedwatcher_logo.png" title="FEDWatcher logo" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </center>
@@ -25,10 +25,10 @@ As a developer with a passion for both coding and design, I was excited to take 
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/FEDWatcher/fedwatcher-top.jpg" title="FEDWatcher top" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/FEDWatcher/fedwatcher-top.jpg" title="FEDWatcher top" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/FEDWatcher/fedwatcher-side.jpg" title="FEDWatcher side" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/FEDWatcher/fedwatcher-side.jpg" title="FEDWatcher side" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -52,10 +52,10 @@ The [Github repository](https://github.com/matiasandina/FEDWatcher) for FEDWatch
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/FEDWatcher/circuit_drawing.png" title="FEDWatcher circuit diagram" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/FEDWatcher/circuit_drawing.png" title="FEDWatcher circuit diagram" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/FEDWatcher/gui.png" title="FEDWatcher GUI" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/FEDWatcher/gui.png" title="FEDWatcher GUI" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>

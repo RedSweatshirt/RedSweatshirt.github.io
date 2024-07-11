@@ -10,10 +10,10 @@ category: school
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm-6 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm-5 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -35,7 +35,7 @@ The idea behind FRVSR is to use a recurrent network to implement video super-res
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/FRVSRModel.png" title="FRVSR Model Diagram" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/vsr_6869/FRVSRModel.png" title="FRVSR Model Diagram" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -45,7 +45,7 @@ The idea behind FRVSR is to use a recurrent network to implement video super-res
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/RAFTModel.png" title="RAFT Model Diagram" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/vsr_6869/RAFTModel.png" title="RAFT Model Diagram" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -96,13 +96,13 @@ Due to resource limitations, the dataset used for training was restricted to a s
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/lowres.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/bicubic.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/bicubic.png" title="Low Res Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/groundtruth.png" title="Ground Truth Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/groundtruth.png" title="Ground Truth Frame" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -113,10 +113,10 @@ Due to resource limitations, the dataset used for training was restricted to a s
 <div class="container">
     <div class="row justify-content-sm-center">
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/FRVSR.png" title="Upscaled Frame using FRVSR" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/FRVSR.png" title="Upscaled Frame using FRVSR" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame using my Model" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/vsr_6869/RAFRVSR.png" title="Upscaled Frame using my Model" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>

@@ -1,4 +1,4 @@
-# Contributing to al-folio
+<!-- # Contributing to al-folio
 
 Thank you for considering contributing to al-folio!
 
@@ -25,4 +25,4 @@ When submitting an issue, please make sure to use the appropriate template.
 ## License
 
 By contributing to al-folio, you agree that your contributions will be licensed
-under the LICENSE file in the root directory of the source tree.
+under the LICENSE file in the root directory of the source tree. -->
