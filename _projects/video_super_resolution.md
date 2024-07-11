@@ -65,33 +65,23 @@ In this project, a combination of various loss functions was utilized to optimiz
 
 1. Per-Pixel Loss: This loss function, calculated using Mean Squared Error (MSE), measures the low-level content differences between the super-resolved output and the ground truth high-resolution image. The equation for per-pixel loss is:
 
-$$
-L_{\text{per-pixel}} = \sum_{i=1}^{n}(I_{\text{upscaled}}-I_{\text{ground truth}})^2
-$$
+$$ L_{\text{per-pixel}} = \sum_{i=1}^{n}(I_{\text{upscaled}}-I_{\text{ground truth}})^2 $$
 
 2. Perception Loss: This loss function captures high-level content similarities by measuring the difference in feature representation between the upscaled output and the ground truth image. The equation for perception loss is:
 
-$$
-L_{\text{perception}} = \sum_{i=1}^{n}(F_{\text{upscaled}}-F_{\text{ground truth}})^2
-$$
+$$ L_{\text{perception}} = \sum_{i=1}^{n}(F_{\text{upscaled}}-F_{\text{ground truth}})^2 $$
  
 3. Total Variation Loss: To reduce noise in the output, this loss function measures the integral of the absolute image gradient under the assumption that an image with significant noise will have a high-valued integral. The equation for total variation loss is:
 
-$$
-L_{\text{total variation}} = \sum_{i, j}\sqrt{|I_{i+1,j} - I_{i,j}|^2 + |y_{i,j+1}-y_{i,j}|^2}
-$$
+$$ L_{\text{total variation}} = \sum_{i, j}\sqrt{|I_{i+1,j} - I_{i,j}|^2 + |y_{i,j+1}-y_{i,j}|^2} $$
  
 4. Flow Loss: To maintain temporal stability between frames, this loss function calculates the Mean Squared Error per-pixel between the predicted high-resolution frame morphed from the flow estimation and the current ground truth low-resolution frame. The equation for flow loss is:
 
-$$
-L_{flow} = \sum_{i=1}^{n}(I_{\text{flow morphed}}-I_{\text{ground truth low res}})^2
-$$
+$$ L_{flow} = \sum_{i=1}^{n}(I_{\text{flow morphed}}-I_{\text{ground truth low res}})^2 $$
  
 5. Total Loss: The overall loss function is a combination of the aforementioned losses and is used to optimize the entire network. For a single video in the training set, the loss is averaged across all frames. The equation for total loss is:
 
-$$
-L_{\text{total video}} = \sum_{i=1}^{n}(L_{\text{frame n}})
-$$
+$$ L_{\text{total video}} = \sum_{i=1}^{n}(L_{\text{frame n}}) $$
 
 These loss functions work together to create a more accurate and visually pleasing super-resolution output while preserving both low and high-level content similarities and maintaining temporal stability.
 
