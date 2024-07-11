@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-pdf: JohnEastmanResume.pdf
+cv_pdf: JohnEastmanResume.pdf
 ---
 
 ## <center>Education</center>
