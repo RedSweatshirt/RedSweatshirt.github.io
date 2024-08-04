@@ -31,7 +31,7 @@ cv_pdf: JohnEastmanResume.pdf
 ### [Second Front Systems](https://www.secondfront.com/) [July 2023 - Aug. 2023]
 #### Data Science Intern
 - Engineered Dash and Plotly dashboards with dynamic filtering and pagination for real-time data visualization.
-- Implemented polynomial regression models for advanced trend analysis and future performance prediction.
+- Implemented regression models for advanced trend analysis and future performance prediction.
 - Developed a data export feature, enabling users to download filtered data as CSV files.
 - Structured the Python codebase for modularity and Docker deployment.
 
@@ -79,7 +79,7 @@ cv_pdf: JohnEastmanResume.pdf
 
 ### Tiny Light Field Network for Efficient 3D Scene Rendering
 - Developed a compact version of a Light Field Network (LFN) using novel deep learning methods to efficiently synthesize 3D scenes from 2D data.
-- Utilized plucker coordinates and a RELU hypernetwork to optimize scene reconstruction and view synthesis.
+- Utilized a RELU hypernetwork to optimize scene reconstruction and novel view synthesis.
 
 ### Mesh Simplification for Accelerated Physics Simulation
 - Engineered Garland-Heckbert mesh decimation and Van Gelder volume decimation algorithms in C++.
