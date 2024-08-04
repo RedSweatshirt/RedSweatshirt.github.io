@@ -9,7 +9,7 @@ category: work
 
 <center>
     <div class="row justify-content-sm-center">
-        <div class="col-sm mt-3 mt-md-0">
+        <div class="col-sm-4 mt-3 mt-md-0">
             {% include figure.liquid path="assets/img/FEDWatcher/fedwatcher_logo.png" title="FEDWatcher logo" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>

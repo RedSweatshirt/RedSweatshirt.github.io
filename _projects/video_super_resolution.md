@@ -5,6 +5,9 @@ description: MIT Advances in Computer Vision (6.869) Final Project
 img: assets/img/vsr_6869/RAFRVSR.png
 importance: 2
 category: school
+images:
+  compare: true
+  slider: true
 ---
 
 <div class="container">
@@ -63,23 +66,23 @@ The loss functions used in this project include per-pixel loss, perception loss,
 
 In this project, a combination of various loss functions was utilized to optimize the performance of the SRNet model.
 
-1. Per-Pixel Loss: This loss function, calculated using Mean Squared Error (MSE), measures the low-level content differences between the super-resolved output and the ground truth high-resolution image. The equation for per-pixel loss is:
+1\. Per-Pixel Loss: This loss function, calculated using Mean Squared Error (MSE), measures the low-level content differences between the super-resolved output and the ground truth high-resolution image. The equation for per-pixel loss is:
 
 $$ L_{\text{per-pixel}} = \sum_{i=1}^{n}(I_{\text{upscaled}}-I_{\text{ground truth}})^2 $$
 
-2. Perception Loss: This loss function captures high-level content similarities by measuring the difference in feature representation between the upscaled output and the ground truth image. The equation for perception loss is:
+2\. Perception Loss: This loss function captures high-level content similarities by measuring the difference in feature representation between the upscaled output and the ground truth image. The equation for perception loss is:
 
 $$ L_{\text{perception}} = \sum_{i=1}^{n}(F_{\text{upscaled}}-F_{\text{ground truth}})^2 $$
  
-3. Total Variation Loss: To reduce noise in the output, this loss function measures the integral of the absolute image gradient under the assumption that an image with significant noise will have a high-valued integral. The equation for total variation loss is:
+3\. Total Variation Loss: To reduce noise in the output, this loss function measures the integral of the absolute image gradient under the assumption that an image with significant noise will have a high-valued integral. The equation for total variation loss is:
 
 $$ L_{\text{total variation}} = \sum_{i, j}\sqrt{|I_{i+1,j} - I_{i,j}|^2 + |y_{i,j+1}-y_{i,j}|^2} $$
  
-4. Flow Loss: To maintain temporal stability between frames, this loss function calculates the Mean Squared Error per-pixel between the predicted high-resolution frame morphed from the flow estimation and the current ground truth low-resolution frame. The equation for flow loss is:
+4\. Flow Loss: To maintain temporal stability between frames, this loss function calculates the Mean Squared Error per-pixel between the predicted high-resolution frame morphed from the flow estimation and the current ground truth low-resolution frame. The equation for flow loss is:
 
 $$ L_{flow} = \sum_{i=1}^{n}(I_{\text{flow morphed}}-I_{\text{ground truth low res}})^2 $$
  
-5. Total Loss: The overall loss function is a combination of the aforementioned losses and is used to optimize the entire network. For a single video in the training set, the loss is averaged across all frames. The equation for total loss is:
+5\. Total Loss: The overall loss function is a combination of the aforementioned losses and is used to optimize the entire network. For a single video in the training set, the loss is averaged across all frames. The equation for total loss is:
 
 $$ L_{\text{total video}} = \sum_{i=1}^{n}(L_{\text{frame n}}) $$
 
@@ -120,6 +123,14 @@ Due to resource limitations, the dataset used for training was restricted to a s
         </div>
     </div>
 </div>
+<div class="caption">
+    First Image: The frame upscaled using the original FRVSR. Second Image: The frame upscaled using my new model.
+</div>
+
+<img-comparison-slider>
+  {% include figure.liquid path="assets/img/vsr_6869/FRVSR.png" class="img-fluid rounded z-depth-1" slot="first" %}
+  {% include figure.liquid path="assets/img/vsr_6869/RAFRVSR.png" class="img-fluid rounded z-depth-1" slot="second" %}
+</img-comparison-slider>
 <div class="caption">
     First Image: The frame upscaled using the original FRVSR. Second Image: The frame upscaled using my new model.
 </div>
