@@ -11,22 +11,22 @@ cv_pdf: JohnEastmanResume.pdf
 ### [Massachusetts Institute of Technology](https://mit.edu/) 
 #### Master of Engineering in Electrical Engineering and Computer Science [Expected Sept. 2024]
 - GPA: 5.0/5.0
-- Concentration in Computer Graphics and Human Computer Interaction
+- Concentrations in Computer Graphics and Artificial Intelligence
 - Notable Courses: Computational Design and Fabrication, Advances in Computer Vision, Machine Learning for Inverse Graphics, Shape Analysis, Advanced Computational Photography.
 
 #### Bachelor of Science in Computer Science and Engineering, Minor in Japanese [June 2023]
 - GPA: 4.7/5.0
-- Notable Courses: Computer Graphics, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction, Machine Learning.
+- Notable Courses: Computer Graphics, Machine Learning, Design and Analysis of Algorithms, Operating System Engineering, Computer Systems Engineering, Software Construction.
 
 ---
 
 ## <center>Experience</center>
 
-### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2023 - Dec. 2023]
+### [Massachusetts Institute of Technology](https://www.eecs.mit.edu/) [Sept. 2023 - Dec. 2023]
 #### Graduate Teaching Assistant
-- Serving as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400).
-- Conduct weekly office hours, address student queries on Piazza, and provide academic support.
-- Compose and graded exam questions, as well as evaluate homework assignments.
+- Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400) in Fall '23.
+- Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
+- Composed and graded exam questions, as well as evaluated homework assignments.
 
 ### [Second Front Systems](https://www.secondfront.com/) [July 2023 - Aug. 2023]
 #### Data Science Intern
@@ -42,9 +42,9 @@ cv_pdf: JohnEastmanResume.pdf
 - Optimized glider hull design using gradient descent on differentiated forces with respect to glider shape.
 - Enabled glider to optimize controls for faster horizontal speed or faster vertical descent.
 
-### [MIT Electrical Engineering and Computer Science Dept.](https://www.eecs.mit.edu/) [Sept. 2022 - Dec. 2022]
+### [Massachusetts Institute of Technology](https://www.eecs.mit.edu/) [Sept. 2022 - Dec. 2022]
 #### Undergraduate Teaching Assistant
-- Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400).
+- Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400) in Fall '22.
 - Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
 - Composed and graded exam questions, as well as evaluated homework assignments.
 
@@ -56,13 +56,13 @@ cv_pdf: JohnEastmanResume.pdf
 - Provided technical support to developers using GPU systems for performance analysis.
 
 ### [MIT Mechanical Engineering Dept.](https://meche.mit.edu/) [June 2021 – Sept. 2021]
-#### Undergraduate Researcher - Backend Server Development
+#### Undergraduate Researcher
 - Collaborated with MindHandHeart to develop a website hosting therapeutic audio files for mental health support.
 - Established a server backend using Python in Django, hosted by Nginx on an Ubuntu server.
 - Designed a custom log-on system with use, content creator, moderator, and server administrator roles.
 
-### [MIT Choi Labs](https://picower.mit.edu/gloria-choi) [June 2021 – Sept. 2021]
-#### Undergraduate Researcher - Embedded Systems Designer
+### [The Picower Institute for Learning and Memory](https://picower.mit.edu/) [June 2021 – Sept. 2021]
+#### Undergraduate Researcher - [Choi Lab](https://picower.mit.edu/gloria-choi)
 - Adapted open-source embedded mouse feeder systems for remote monitoring capabilities.
 - Engineered new hardware to interface offline mouse feeder using Raspberry Pi for internet connectivity.
 - Developed software for Raspberry Pi to monitor the mouse feeders and transmit data and alerts autonomously.
@@ -81,17 +81,17 @@ cv_pdf: JohnEastmanResume.pdf
 - Developed a compact version of a Light Field Network (LFN) using novel deep learning methods to efficiently synthesize 3D scenes from 2D data.
 - Utilized a RELU hypernetwork to optimize scene reconstruction and novel view synthesis.
 
-### Mesh Simplification for Accelerated Physics Simulation
+### [Mesh Simplification for Accelerated Physics Simulation](/projects/mesh_simp_phys_sim/)
 - Engineered Garland-Heckbert mesh decimation and Van Gelder volume decimation algorithms in C++.
 - Integrated Finite Element Method (FEM) for non-linear physics simulation on simplified meshes.
 - Implemented Biharmonic weights to project simulated deformation from simplified mesh to the original mesh.
 
-### Improved Loss Function for Frame Recurrent Video Super Resolution
+### [Improved Loss Function for Frame Recurrent Video Super Resolution](/projects/video_super_resolution/)
 - Augmented original implementation of FRVSR model in Python using PyTorch and retrained it.
 - Integrated cutting-edge pre-trained RAFT flow network model to increase flow accuracy.
 - Developed novel loss function, leveraging Perceptual Loss using VGG19 model to improve visual quality.
 
-### Photon Mapping
+### [Photon Mapping](/projects/photon_mapping/)
 - Implemented a raytracing algorithm in C++, incorporating refraction, total internal reflection (via Snell's law), and global illumination through Photon Mapping with k-d tree acceleration.
 
 ---
