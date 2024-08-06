@@ -25,14 +25,12 @@ cv_pdf: JohnEastmanResume.pdf
 ### [Massachusetts Institute of Technology](https://www.eecs.mit.edu/) [Sept. 2023 - Dec. 2023]
 #### Graduate Teaching Assistant
 - Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400) in Fall '23.
-- Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
-- Composed and graded exam questions, as well as evaluated homework assignments.
+- Conducted office hours, assisted students with and graded C++ OpenGL coursework, and graded exams.
 
 ### [Second Front Systems](https://www.secondfront.com/) [July 2023 - Aug. 2023]
 #### Data Science Intern
 - Engineered Dash and Plotly dashboards with dynamic filtering and pagination for real-time data visualization.
 - Implemented regression models for advanced trend analysis and future performance prediction.
-- Developed a data export feature, enabling users to download filtered data as CSV files.
 - Structured the Python codebase for modularity and Docker deployment.
 
 ### [MIT Computer Science and Artificial Intelligence Laboratory](https://www.csail.mit.edu/) [Feb. 2023 - May 2023]
@@ -45,12 +43,11 @@ cv_pdf: JohnEastmanResume.pdf
 ### [Massachusetts Institute of Technology](https://www.eecs.mit.edu/) [Sept. 2022 - Dec. 2022]
 #### Undergraduate Teaching Assistant
 - Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400) in Fall '22.
-- Conducted weekly office hours, addressed student queries on Piazza, and provided academic support.
-- Composed and graded exam questions, as well as evaluated homework assignments.
+- Conducted office hours, assisted students with and graded C++ OpenGL coursework, and graded exams.
 
 ### [Intel Corporation](https://www.intel.com) [May 2022 – Aug. 2022]
 #### 3D Acceleration Software Engineer Intern
-- Developed discrete GPU driver updates to resolve bugs and enhance Direct3D performance for Windows.
+- Developed discrete GPU driver updates in C++ to resolve bugs and enhance Direct3D performance.
 - Performed in-depth GPU performance profiling and analysis utilizing advanced analysis tools.
 - Engaged with modern DirectX9, DirectX11, and DirectX12 3D titles in Windows.
 - Provided technical support to developers using GPU systems for performance analysis.
@@ -63,9 +60,9 @@ cv_pdf: JohnEastmanResume.pdf
 
 ### [The Picower Institute for Learning and Memory](https://picower.mit.edu/) [June 2021 – Sept. 2021]
 #### Undergraduate Researcher - [Choi Lab](https://picower.mit.edu/gloria-choi)
-- Adapted open-source embedded mouse feeder systems for remote monitoring capabilities.
+- Adapted open-source embedded mouse feeder systems for remote monitoring capabilities in C++.
 - Engineered new hardware to interface offline mouse feeder using Raspberry Pi for internet connectivity.
-- Developed software for Raspberry Pi to monitor the mouse feeders and transmit data and alerts autonomously.
+- Developed software in Python for Raspberry Pi to monitor the mouse feeders and transmit data and alerts autonomously.
 
 ### [Andeno](https://www.andeno.com/en/) [June 2020 – Aug. 2020]
 #### Data Science Intern
@@ -78,7 +75,7 @@ cv_pdf: JohnEastmanResume.pdf
 ## <center>Projects</center>
 
 ### Tiny Light Field Network for Efficient 3D Scene Rendering
-- Developed a compact version of a Light Field Network (LFN) using novel deep learning methods to efficiently synthesize 3D scenes from 2D data.
+- Developed a compact version of a Light Field Network (LFN) in Python using novel deep learning methods to efficiently synthesize 3D scenes from 2D data.
 - Utilized a RELU hypernetwork to optimize scene reconstruction and novel view synthesis.
 
 ### [Mesh Simplification for Accelerated Physics Simulation](/projects/mesh_simp_phys_sim/)
@@ -100,4 +97,4 @@ cv_pdf: JohnEastmanResume.pdf
 
 #### Programming Languages: C/C++, Python, C#, Java, Julia, MATLAB
 #### Frameworks: Direct3D (DirectX), OpenGL, PyTorch, UNIX, Arduino, ESP32
-#### Proficiencies: Computer Graphics, Computer Vision, Machine Learning, Operating Systems, Embedded Systems 
+#### Proficiencies: Computer Graphics, Computer Vision, Machine Learning, Deep Learning, Operating Systems, Embedded Systems, Data Science
