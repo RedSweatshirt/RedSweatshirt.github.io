@@ -3,7 +3,7 @@ layout: page
 title: Global Illumination via Photon Mapping
 description: MIT Computer Graphics (6.837) Final Project
 img: assets/img/photon_mapping_6837/rt_pm_cornellbox.png
-importance: 3
+importance: 4
 category: school
 ---
 

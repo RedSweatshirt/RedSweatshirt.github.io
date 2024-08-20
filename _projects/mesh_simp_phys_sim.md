@@ -3,7 +3,7 @@ layout: page
 title: Mesh Simplification for Accelerated Physics Simulation
 description: MIT Computational Design and Fabrication (6.8420) Final Project
 img: assets/img/mesh_simp_phys_sim/cow.png
-importance: 1
+importance: 2
 category: school
 ---
 

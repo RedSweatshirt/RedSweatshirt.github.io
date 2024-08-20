@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### Welcome to Jack's portfolio page
 
-Hi, I'm Jack!  I'm currently pursuing a Master of Engineering in Electrical Engineering and Computer Science at the Massachusetts Institute of Technology, where I also earned my B.S. in Computer Science and Engineering. Passionate about computational design, computer graphics, computer vision, and machine learning I have had the opportunity to hone my skills and apply my knowledge through various academic and industry experiences. In this space, I would like to share more about my journey and the projects I've worked on.
+Hi, I'm Jack! I have completed my Master of Engineering in Electrical Engineering and Computer Science at the Massachusetts Institute of Technology, with the degree pending formal award in September. I also earned my B.S. in Computer Science and Engineering from MIT. Passionate about computational design, computer graphics, computer vision, and machine learning I have had the opportunity to hone my skills and apply my knowledge through various academic and industry experiences. In this space, I would like to share more about my journey and the projects I've worked on.
 
 #### My Interests
 

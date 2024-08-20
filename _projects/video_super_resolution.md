@@ -3,7 +3,7 @@ layout: page
 title: Frame Recurrent Video Super Resolution
 description: MIT Advances in Computer Vision (6.869) Final Project
 img: assets/img/vsr_6869/RAFRVSR.png
-importance: 2
+importance: 3
 category: school
 images:
   compare: true

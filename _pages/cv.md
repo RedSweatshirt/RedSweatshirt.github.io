@@ -9,9 +9,10 @@ cv_pdf: JohnEastmanResume.pdf
 
 ## <center>Education</center>
 ### [Massachusetts Institute of Technology](https://mit.edu/) 
-#### Master of Engineering in Electrical Engineering and Computer Science [Expected Sept. 2024]
+#### Master of Engineering in Electrical Engineering and Computer Science [Sept. 2024]
 - GPA: 5.0/5.0
 - Concentrations in Computer Graphics and Artificial Intelligence
+- Thesis: [Recovery of Herschel-Bulkley Fluid Parameters from Video via Differentiable Simulations](/projects/master_thesis/)
 - Notable Courses: Computational Design and Fabrication, Advances in Computer Vision, Machine Learning for Inverse Graphics, Shape Analysis, Advanced Computational Photography.
 
 #### Bachelor of Science in Computer Science and Engineering, Minor in Japanese [June 2023]

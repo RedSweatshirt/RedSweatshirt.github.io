@@ -3,7 +3,7 @@ layout: page
 title: FEDWatcher, A Raspberry Pi Interface for FED3 Devices
 description: Research at MIT Choi Labs
 img: assets/img/FEDWatcher/fedwatcher_logo.png
-importance: 3
+importance: 5
 category: work
 ---
 
