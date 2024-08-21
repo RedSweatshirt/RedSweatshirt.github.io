@@ -2,10 +2,21 @@
 layout: page
 title: Recovery of Herschel-Bulkley Fluid Parameters from Video via Differentiable Simulations
 description: MIT M.Eng Thesis
-# img: assets/img/mesh_simp_phys_sim/cow.png
+img: assets/img/meng_thesis/bunny_init.png
 importance: 1
 category: school
 ---
+
+<center>
+    <div class="row justify-content-sm-center">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid path="assets/img/meng_thesis/bunny_simulation.png" title="Ketchup Stanford Bunny Simulation" class="img-fluid rounded z-depth-1" %}
+        </div>
+    </div>
+</center>
+<div class="caption">
+    Stanford Bunny simulation using recovered ketchup parameters over time from beginning (left) to middle (center) and end (right).
+</div>
 
 The full thesis will be available on the MIT website soon. Check back for a link to the published version.
 
