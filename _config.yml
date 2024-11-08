@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: John Eastman # the website title (if blank, full name will be used instead)
-first_name: John
+title: Jack Eastman # the website title (if blank, full name will be used instead)
+first_name: Jack
 middle_name: 
 last_name: Eastman
 email: jackeastman00@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  John Eastman's personal Website
+  Jack Eastman's personal Website
 footer_text: >
 # Text here if you want it
 keywords: # add your own keywords or leave empty
