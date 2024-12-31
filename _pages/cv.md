@@ -23,6 +23,9 @@ cv_pdf: JohnEastmanResume.pdf
 
 ## <center>Experience</center>
 
+### [Amazon Web Services](https://aws.amazon.com/) [Dec. 2024 - Present]
+#### Software Development Engineer
+
 ### [Massachusetts Institute of Technology](https://www.eecs.mit.edu/) [Sept. 2023 - Dec. 2023]
 #### Graduate Teaching Assistant
 - Served as a TA for the Advanced Undergraduate Subject: Computer Graphics (6.4400) in Fall '23.

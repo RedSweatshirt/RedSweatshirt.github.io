@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### Welcome to my portfolio page
 
-Hi, I'm Jack! I hold both a Master of Engineering (M.Eng.) in Electrical Engineering and Computer Science and a Bachelor of Science (S.B.) in Computer Science and Engineering from the Massachusetts Institute of Technology. I completed my M.Eng. in 2024, with a focus on Computer Graphics and Artificial Intelligence, following my undergraduate degree in Computer Science and Engineering. My academic journey has been a deep dive into computational design, computer graphics, computer vision, and machine learning. In this space, I’m excited to share my journey and the projects I've worked on.
+Hi, I'm Jack! I currently work as a Software Development Engineer at AWS. I hold both a Master of Engineering (M.Eng.) in Electrical Engineering and Computer Science and a Bachelor of Science (S.B.) in Computer Science and Engineering from the Massachusetts Institute of Technology. I completed my M.Eng. in 2024, with a focus on Computer Graphics and Artificial Intelligence, following my undergraduate degree in Computer Science and Engineering. My academic journey has been a deep dive into computational design, computer graphics, computer vision, and machine learning. In this space, I’m excited to share my journey and the projects I've worked on.
 
 #### My Interests
 
